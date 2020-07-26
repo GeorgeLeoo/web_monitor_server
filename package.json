@@ -8,13 +8,24 @@
     "build": "cross-env NODE_ENV=prod webpack --config config/webpack.config.prod.js",
     "dev": "cross-env NODE_ENV=dev nodemon --exec babel-node --inspect src/app.js",
     "clean": "rimraf dist",
-    "boot": "yarn && npm install"
+    "boot": "yarn && npm install",
+    "lint": "eslint --ext .jsx,.js src/ --cache",
+    "lint:fix": "eslint --ext .jsx,.js src/ --fix ./src --cache"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@koa/cors": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.3.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-standard": "^4.0.1",
     "geoip-lite": "^1.3.7",
     "ip": "^1.1.5",
     "jsonwebtoken": "^8.5.1",
@@ -30,7 +41,8 @@
     "koa-router": "^8.0.6",
     "koa-static": "^5.0.0",
     "koa-websocket": "^6.0.0",
-    "log4js": "^3.0.6"
+    "log4js": "^3.0.6",
+    "mysql2": "^2.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",

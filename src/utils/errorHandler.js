@@ -9,7 +9,7 @@ const Response = require('../utils/Response')
  */
 module.exports = function () {
     return async function (ctx, next) {
-        const login_error = "登录已失效，请重新登录"
+        const login_error = '登录已失效，请重新登录'
         const token = ctx.header['access-token']  // 获取jwt
         if (token === undefined) {
             await next();
