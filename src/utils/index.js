@@ -2,7 +2,8 @@ import './extension'
 import myAtob from 'atob'
 import fetch from 'node-fetch'
 import uuid from 'node-uuid'
-import UserTable from '../schema/user'
+import jwt from 'jsonwebtoken'
+import secret from '../config/secret'
 
 const timeout = 300000
 
@@ -353,6 +354,21 @@ const Index = {
         return new Promise( (resolve, reject) => {
             promiseCallback(resolve, reject)
         })
+    },
+    /**
+     * 生成token
+     * @param content
+     * @returns {{expiresIn: number, token: (undefined|*)}}
+     */
+    accessToken: function (content) {
+        // let expiresIn = Math.round((new Date().getTime() / 1000)) + 3600; // 过期时间
+        let expiresIn = 60 * 60 * 24 // 过期时间
+        // let expiresIn = 1; // 立刻过期
+        let token = jwt.sign(content, secret.sign, { expiresIn })
+        return {
+            token,
+            expiresIn
+        }
     },
 }
 

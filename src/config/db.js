@@ -1,13 +1,14 @@
-import Sequelize, {DataTypes as dts} from 'sequelize'
+import db, { DB } from './../utils/DB'
+
 import defaultConfig from './mysql'
 
-const sequelize = new Sequelize(defaultConfig.dataBaseName, defaultConfig.userName, defaultConfig.password, {
+const options = {
     host: defaultConfig.ip,
     port: defaultConfig.port,
     dialect: 'mysql',
     logging: (sql) => {
-    // 这里处理sql的日志，暂时不打印
-    // console.log(sql.length)
+        // 这里处理sql的日志，暂时不打印
+        // console.log(sql.length)
     },
     dialectOptions: {
         charset: 'utf8mb4',
@@ -21,16 +22,17 @@ const sequelize = new Sequelize(defaultConfig.dataBaseName, defaultConfig.userNa
         idle: 10000
     },
     timezone: '+08:00' //东八时区
-})
+}
 
-sequelize.authenticate().then(() => {
-    console.log('Connection has been established successfully.');
-}).catch(err => {
-    console.log('Unable to connect to the database:', err);
-})
+const mysql = db.init(
+    defaultConfig.dataBaseName,
+    defaultConfig.userName,
+    defaultConfig.password,
+    options
+)
 
-// module.exports = sequelize
+db.open()
 
-export default sequelize
+export default mysql
 
-export const DataTypes = dts
+export const DataTypes = DB.DataTypes

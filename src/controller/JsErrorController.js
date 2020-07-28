@@ -1,5 +1,5 @@
 import Response from './../utils/Response'
-import history from './../schema/test'
+import JsErrorService from '../service/JsErrorService'
 
 class JsErrorController {
     // TODO: 查询JsError
@@ -7,30 +7,15 @@ class JsErrorController {
         const options = {
             where: {}
         }
-        const id = ctx.query.id
-        if (id) {
-            options.where.id = id
-        }
-        try {
-            const historys = await history.findAll(options)
-            new Response(ctx).send200('ok', historys)
-        } catch (e) {
-            console.log(e)
-        }
+        const result = await JsErrorService.find(options)
+        new Response(ctx).send(result)
     }
     
     // TODO: 创建JsError
     async create (ctx) {
-        try {
-            history.sync().then(() => {})
-            const result = await history.create({
-                username: 'xx',
-                password: '123456',
-            })
-            new Response(ctx).send200('ok', result)
-        } catch (e) {
-            console.log(e)
-        }
+        const options = {}
+        const result = await JsErrorService.create(options)
+        new Response(ctx).send(result)
     }
 }
 

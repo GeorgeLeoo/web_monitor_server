@@ -1,5 +1,3 @@
-const moment = require('moment')
-
 module.exports = (DataTypes) => {
     return {
     // 日志类型
@@ -61,20 +59,6 @@ module.exports = (DataTypes) => {
             type: DataTypes.TEXT,
             allowNull: true,
             field: 'secondUserParam'
-        },
-        // 创建时间
-        createdAt: {
-            type: DataTypes.DATE,
-            get () {
-                return moment(this.getDataValue('createdAt')).format('YYYY-MM-DD HH:mm:ss')
-            }
-        },
-        // 更新时间
-        updatedAt: {
-            type: DataTypes.DATE,
-            get () {
-                return moment(this.getDataValue('updatedAt')).format('YYYY-MM-DD HH:mm:ss')
-            }
         }
     }
 }

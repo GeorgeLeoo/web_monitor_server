@@ -25,19 +25,19 @@ const app = WebSocket(new Koa())
 
 const isDevMode = (process.env.NODE_ENV !== 'production')
 
-app.use(async (ctx, next) => {
-    ctx.set('Access-Control-Allow-Origin', '*')
-    ctx.set('Access-Control-Allow-Methods', 'PUT,POST,GET,DELETE,OPTIONS')
-    ctx.set('Access-Control-Allow-Headers', 'access-token')
-    ctx.set('Access-Control-Allow-Credentials', true)
-    ctx.set('X-Powered-By', '3.2.1')
-    ctx.set('Content-Type', 'application/json;charset=utf-8')
-    if (ctx.method === 'OPTIONS') {
-        ctx.body = 200
-    } else {
-        await next()
-    }
-})
+// app.use(async (ctx, next) => {
+//     ctx.set('Access-Control-Allow-Origin', '*')
+//     ctx.set('Access-Control-Allow-Methods', 'PUT,POST,GET,DELETE,OPTIONS')
+//     ctx.set('Access-Control-Allow-Headers', 'access-token')
+//     ctx.set('Access-Control-Allow-Credentials', true)
+//     ctx.set('X-Powered-By', '3.2.1')
+//     ctx.set('Content-Type', 'application/json;charset=utf-8')
+//     if (ctx.method === 'OPTIONS') {
+//         ctx.body = 200
+//     } else {
+//         await next()
+//     }
+// })
 
 // 登录校验
 app.use(verifyHandler())
@@ -48,7 +48,7 @@ const middleware = compose([
         multipart: true,
         formidable: {
             keepExtensions: true,
-            maxFileSize: 200*1024*1024    // 设置上传文件大小最大限制，默认2M
+            maxFileSize: 200 * 1024 * 1024    // 设置上传文件大小最大限制，默认2M
         }
     }),
     statics(path.join(__dirname, '../public')),
@@ -65,11 +65,12 @@ app.use(async (ctx, next) => {
     try {
         await next()
         ms = new Date() - start
+        console.log('[http] ' + ctx.url + ' [Date]' + new Date() + ' [time]' + ms)
     } catch (error) {
-    //记录异常日志
+        //记录异常日志
         log.error(ctx, error, ms)
         ctx.response.status = 500
-    // ctx.body = statusCode.ERROR_500('服务器异常，请检查 logs/error 目录下日志文件', "")
+        // ctx.body = statusCode.ERROR_500('服务器异常，请检查 logs/error 目录下日志文件', "")
     }
 })
 

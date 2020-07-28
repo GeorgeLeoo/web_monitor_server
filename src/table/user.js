@@ -1,5 +1,4 @@
 import { Table } from './utils'
-const moment = require('moment');
 
 const user = Table('user', {
     id: {
@@ -10,7 +9,8 @@ const user = Table('user', {
     },
     username: {
         type: Table.DataTypes.STRING,
-        allowNull: false
+        allowNull: false,
+        unique: true
     },
     password: {
         type: Table.DataTypes.STRING,

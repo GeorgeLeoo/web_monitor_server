@@ -1,7 +1,7 @@
 import Response from './../utils/Response'
-import history from './../schema/test'
-import UserTable from '../schema/user'
+import history from '../table/test'
 import UserService from '../service/UserService'
+import token from '../utils/Token'
 
 class UserController {
     // TODO: 查询用户
@@ -46,10 +46,16 @@ class UserController {
             new Response(ctx).send412('密码不能为空')
             return
         }
+        const res = await UserService.find({username})
+        let msg = ''
+        if (res.data[0] && res.data[0].username === username) {
+            msg = '用户名已存在'
+            new Response(ctx).send200(msg)
+        } else {
+            const { data } = await UserService.create({ username, password })
+            new Response(ctx).send200(msg, data)
+        }
         
-        const { data } = await UserService.create({ username, password })
-    
-        new Response(ctx).send200('', data)
     }
     
     // TODO: 登陆
@@ -57,10 +63,14 @@ class UserController {
         const { username, password } = ctx.request.body
         const { code, data } = await UserService.find({ username, password })
         let msg = ''
+        let user
         if (data.length === 0) {
             msg = '账号或密码错误'
+        } else {
+            let result = token.accessToken({ username })
+            user = Object.assign({ uid: data[0].id }, { token: result.token })
         }
-        new Response(ctx).send({ code, msg, data })
+        new Response(ctx).send({ code, msg, data: user })
     }
 }
 
