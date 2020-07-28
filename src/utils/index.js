@@ -1,7 +1,9 @@
-require('./extension')
-const myAtob = require('atob')
-const fetch = require('node-fetch')
-const uuid = require('node-uuid')
+import './extension'
+import myAtob from 'atob'
+import fetch from 'node-fetch'
+import uuid from 'node-uuid'
+import UserTable from '../schema/user'
+
 const timeout = 300000
 
 const Index = {
@@ -28,7 +30,7 @@ const Index = {
             // return d.getFullYear() + '-' + m + '-' + dayValue;
             return d.getFullYear() + '-' + m + '-' + dayValue
         }
-    
+        
         let newResult = []
         for (let i = 0; i < scope; i++) {
             let tempDate = addDate(new Date(), -i)
@@ -66,7 +68,7 @@ const Index = {
     },
     qs (object, cache) {
         const arr = []
-    
+        
         function inner (innerObj, prefix) {
             for (const prop in innerObj) {
                 if (!innerObj.hasOwnProperty(prop)) return
@@ -81,7 +83,7 @@ const Index = {
                 }
             }
         }
-    
+        
         inner(object, '')
         if (cache && !object._) {
             arr.push('_=' + encodeURIComponent(BUILD_NO))
@@ -142,15 +144,15 @@ const Index = {
         } catch (e) {
             return str
         }
-    
+        
     },
     md5Encrypt: function (encryptString) {
-    // try {
-    //   let hash = crypto.createHash('md5');
-    //   return hash.update(encryptString).digest('base64');
-    // } catch(e) {
-    //   return ""
-    // }
+        // try {
+        //   let hash = crypto.createHash('md5');
+        //   return hash.update(encryptString).digest('base64');
+        // } catch(e) {
+        //   return ""
+        // }
         return encryptString
     },
     setTableName (name) {
@@ -162,7 +164,7 @@ const Index = {
     },
     quickSortForObject (arr, key, begin, end) {
         if (begin > end) return
-    
+        
         let tempValue = arr[begin][key]
         let tmp = arr[begin]
         let i = begin
@@ -231,8 +233,8 @@ const Index = {
         return Index.handleFetchData(url, fetchParams, httpCustomerOperation)
     },
     handleFetchData (fetchUrl, fetchParams, httpCustomerOperation) {
-    // 如果是照片的base64数据，ios系统会卡死
-    // TODO: debugPanel不使用react
+        // 如果是照片的base64数据，ios系统会卡死
+        // TODO: debugPanel不使用react
         const logParams = { ...fetchParams }
         if (logParams.body && logParams.body.length > 1024) {
             logParams.body = logParams.body.substr(0, 1024) + '...'
@@ -261,7 +263,10 @@ const Index = {
                                 resolve(Index.handleResult(jsonBody, httpCustomerOperation))
                             }
                         } else {
-                            reject(Index.handleResult({ fetchStatus: 'error', netStatus: response.status }, httpCustomerOperation))
+                            reject(Index.handleResult({
+                                fetchStatus: 'error',
+                                netStatus: response.status
+                            }, httpCustomerOperation))
                         }
                     }).catch(e => {
                         const errMsg = e.name + ' ' + e.message
@@ -299,7 +304,7 @@ const Index = {
         })
     },
     getHeaders () {
-    // 需要通过app来获取
+        // 需要通过app来获取
         const fetchCommonParams = {
             // "mode": "cors",
             // "credentials": "same-origin"
@@ -316,15 +321,15 @@ const Index = {
         }
         return Object.assign({}, { headers })
     },
-  
-    /**
-   * 自己配置邮箱，bin/useCusEmailSys.js 参数改为true
-   */
-    sendEmail: (email, subject, html) => {
     
+    /**
+     * 自己配置邮箱，bin/useCusEmailSys.js 参数改为true
+     */
+    sendEmail: (email, subject, html) => {
+        
         const user = '' // 163邮箱地址
         const pass = '' // 老账号用密码， 新账号用安全码
-    
+        
         const company = 'webfunny.cn'
         let transporter = nodemailer.createTransport({
             host: 'smtp.163.com',
@@ -343,7 +348,12 @@ const Index = {
     },
     getUuid () {
         return uuid.v1()
-    }
+    },
+    DBHandler (promiseCallback) {
+        return new Promise( (resolve, reject) => {
+            promiseCallback(resolve, reject)
+        })
+    },
 }
 
 module.exports = Index

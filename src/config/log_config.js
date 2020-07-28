@@ -1,6 +1,6 @@
-var log4js = require('log4js');
-var path = require('path');
-var fs = require('fs');
+import log4js from 'log4js'
+import path from 'path'
+import fs from 'fs'
 var basePath = path.resolve(__dirname, '../logs');
 
 var errorPath = basePath + '/errors/';

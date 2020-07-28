@@ -1,7 +1,7 @@
 import { Table } from './utils'
 const moment = require('moment');
 
-const user = Table('user', {
+const history = Table('history', {
     id: {
         type: Table.DataTypes.INTEGER,
         primaryKey: true,
@@ -10,13 +10,19 @@ const user = Table('user', {
     },
     username: {
         type: Table.DataTypes.STRING,
-        allowNull: false
+        allowNull: true
     },
     password: {
         type: Table.DataTypes.STRING,
-        allowNull: false
-    }
+        allowNull: true
+    },
+    createdAt: {
+        type: Table.DataTypes.DATE,
+        get() {
+            return moment(this.getDataValue('createdAt')).format('YYYY-MM-DD HH:mm:ss');
+        }
+    },
 })
 
-export default user
+export default history
 

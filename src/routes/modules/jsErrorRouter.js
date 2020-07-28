@@ -1,6 +1,6 @@
 import Router from 'koa-router'
 
-import controller from '../../controller/jsErrorController'
+import controller from '../../controller/JsErrorController'
 
 const router = new Router()
 

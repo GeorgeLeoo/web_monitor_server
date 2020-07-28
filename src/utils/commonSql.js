@@ -1,4 +1,5 @@
-const utils = require('./index')
+import utils from './index'
+
 module.exports = {
     createTimeScopeSql: function (day) {
         const startTime = utils.addDays(0 - day) + ' 00:00:00'

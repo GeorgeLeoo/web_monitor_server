@@ -1,8 +1,9 @@
-const jwt = require('jsonwebtoken')
-const secret = require('../config/secret')
-const util = require('util')
+import jwt from 'jsonwebtoken'
+import secret from '../config/secret'
+import util from 'util'
+import Response from '../utils/Response'
+
 const verify = jwt.verify
-const Response = require('../utils/Response')
 
 /**
  * 判断token是否可用

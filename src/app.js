@@ -13,9 +13,13 @@ import helmet from 'koa-helmet'
 import statics from 'koa-static'
 import compress from 'koa-compress'
 
-const errorHandler = require('./utils/errorHandler')
+import verifyHandler from './utils/verifyHandler'
+
+import errorHandle from './utils/errorHandle'
 
 import router from './routes'
+
+import log from './utils/log'
 
 const app = WebSocket(new Koa())
 
@@ -36,15 +40,22 @@ app.use(async (ctx, next) => {
 })
 
 // 登录校验
-app.use(errorHandler())
+app.use(verifyHandler())
 
 // koa-compose 集成中间件
 const middleware = compose([
-    koaBody(),
+    koaBody({
+        multipart: true,
+        formidable: {
+            keepExtensions: true,
+            maxFileSize: 200*1024*1024    // 设置上传文件大小最大限制，默认2M
+        }
+    }),
     statics(path.join(__dirname, '../public')),
     cors(),
     json({ pretty: false, param: 'pretty' }),
     helmet(),
+    errorHandle,
     router()
 ])
 
@@ -68,14 +79,4 @@ if (isDevMode) {
 
 app.use(middleware)
 
-app.on('error', (err, ctx) => {
-    console.error('server error', err, ctx)
-})
-
-const PORT = 54321
-
-app.listen(PORT, () => {
-    console.log('----------------------------------------------')
-    console.log('--     Server is running on port ' + PORT + '      --')
-    console.log('----------------------------------------------')
-})
+export default app

@@ -1,0 +1,202 @@
+[2020-07-27T16:29:20.079] [ERROR] errorLog -
+*************** error log start ***************
+method: GET
+originalUrl:  /jsError
+client ip:  ::1
+query:  undefined
+response time: 0
+err name: TypeError
+err message: _sequelize.default.close is not a function
+err stack: TypeError: _sequelize.default.close is not a function
+    at get (/Users/jxd/Documents/GitHub/web_monitor_server/src/controller/JsErrorController.js:13:19)
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-router/lib/router.js:368:16
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-router/lib/router.js:373:31)
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
+    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/index.js:56:32)
+*************** error log end ***************
+
+[2020-07-27T16:49:56.283] [ERROR] errorLog -
+*************** error log start ***************
+method: GET
+originalUrl:  /jsError
+client ip:  ::1
+query:  undefined
+response time: 0
+err name: ReferenceError
+err message: users is not defined
+err stack: ReferenceError: users is not defined
+    at get (/Users/jxd/Documents/GitHub/web_monitor_server/src/controller/JsErrorController.js:20:41)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/index.js:56:32)
+    at serve (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-static/index.js:53:9)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compress/index.js:43:5
+    at /Users/jxd/Documents/GitHub/web_monitor_server/src/app.js:57:9
+    at /Users/jxd/Documents/GitHub/web_monitor_server/src/utils/verifyHandler.js:16:13
+    at /Users/jxd/Documents/GitHub/web_monitor_server/src/app.js:36:9
+*************** error log end ***************
+
+[2020-07-27T16:50:06.853] [ERROR] errorLog -
+*************** error log start ***************
+method: GET
+originalUrl:  /jsError
+client ip:  ::1
+query:  undefined
+response time: 0
+err name: ReferenceError
+err message: users is not defined
+err stack: ReferenceError: users is not defined
+    at get (/Users/jxd/Documents/GitHub/web_monitor_server/src/controller/JsErrorController.js:20:41)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/index.js:56:32)
+    at serve (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-static/index.js:53:9)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compress/index.js:43:5
+    at /Users/jxd/Documents/GitHub/web_monitor_server/src/app.js:57:9
+    at /Users/jxd/Documents/GitHub/web_monitor_server/src/utils/verifyHandler.js:16:13
+    at /Users/jxd/Documents/GitHub/web_monitor_server/src/app.js:36:9
+*************** error log end ***************
+
+[2020-07-27T16:50:08.545] [ERROR] errorLog -
+*************** error log start ***************
+method: GET
+originalUrl:  /jsError
+client ip:  ::1
+query:  undefined
+response time: 0
+err name: ReferenceError
+err message: users is not defined
+err stack: ReferenceError: users is not defined
+    at get (/Users/jxd/Documents/GitHub/web_monitor_server/src/controller/JsErrorController.js:20:41)
+*************** error log end ***************
+
+[2020-07-27T16:52:01.939] [ERROR] errorLog -
+*************** error log start ***************
+method: POST
+originalUrl:  /jsError
+client ip:  ::1
+body:
+{}
+response time: 0
+err name: ReferenceError
+err message: doc is not defined
+err stack: ReferenceError: doc is not defined
+    at create (/Users/jxd/Documents/GitHub/web_monitor_server/src/controller/JsErrorController.js:37:41)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/index.js:56:32)
+    at serve (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-static/index.js:53:9)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compress/index.js:43:5
+    at /Users/jxd/Documents/GitHub/web_monitor_server/src/app.js:57:9
+    at /Users/jxd/Documents/GitHub/web_monitor_server/src/utils/verifyHandler.js:16:13
+    at /Users/jxd/Documents/GitHub/web_monitor_server/src/app.js:36:9
+*************** error log end ***************
+
+[2020-07-27T17:19:48.750] [ERROR] errorLog -
+*************** error log start ***************
+method: GET
+originalUrl:  /jsError
+client ip:  ::1
+query:  undefined
+response time: 0
+err name: Error
+err message: WHERE parameter "id" has invalid "undefined" value
+err stack: Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.select (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:939:27)
+    at Function.findAll (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/model.js:1741:47)
+    at get (/Users/jxd/Documents/GitHub/web_monitor_server/src/controller/JsErrorController.js:6:26)
+    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/index.js:56:32)
+*************** error log end ***************
+
+[2020-07-27T17:19:53.763] [ERROR] errorLog -
+*************** error log start ***************
+method: GET
+originalUrl:  /jsError
+client ip:  ::1
+query:  undefined
+response time: 0
+err name: Error
+err message: WHERE parameter "id" has invalid "undefined" value
+err stack: Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.select (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:939:27)
+    at Function.findAll (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/model.js:1741:47)
+    at get (/Users/jxd/Documents/GitHub/web_monitor_server/src/controller/JsErrorController.js:6:26)
+    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/index.js:56:32)
+*************** error log end ***************
+
+[2020-07-27T17:36:58.135] [ERROR] errorLog -
+*************** error log start ***************
+method: POST
+originalUrl:  /jsError
+client ip:  ::1
+body:
+{}
+response time: 0
+err name: SequelizeDatabaseError
+err message: Unknown column 'update_timestamp' in 'field list'
+err stack: SequelizeDatabaseError: Unknown column 'update_timestamp' in 'field list'
+    at Query.formatError (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-07-27T17:37:04.076] [ERROR] errorLog -
+*************** error log start ***************
+method: POST
+originalUrl:  /jsError
+client ip:  ::1
+body:
+{}
+response time: 0
+err name: SequelizeDatabaseError
+err message: Unknown column 'update_timestamp' in 'field list'
+err stack: SequelizeDatabaseError: Unknown column 'update_timestamp' in 'field list'
+    at Query.formatError (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-07-27T17:37:30.810] [ERROR] errorLog -
+*************** error log start ***************
+method: GET
+originalUrl:  /jsError
+client ip:  ::1
+query:  undefined
+response time: 0
+err name: SequelizeDatabaseError
+err message: Unknown column 'update_timestamp' in 'field list'
+err stack: SequelizeDatabaseError: Unknown column 'update_timestamp' in 'field list'
+    at Query.formatError (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-07-27T17:37:31.952] [ERROR] errorLog -
+*************** error log start ***************
+method: GET
+originalUrl:  /jsError
+client ip:  ::1
+query:  undefined
+response time: 0
+err name: SequelizeDatabaseError
+err message: Unknown column 'update_timestamp' in 'field list'
+err stack: SequelizeDatabaseError: Unknown column 'update_timestamp' in 'field list'
+    at Query.formatError (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+

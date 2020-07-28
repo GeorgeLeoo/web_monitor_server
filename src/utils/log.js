@@ -1,4 +1,4 @@
-var log4js = require('./log_config');
+import log4js from './../config/log_config'
 
 var errorLog = log4js.getLogger('errorLog'); //此处使用category的值
 var resLog = log4js.getLogger('responseLog'); //此处使用category的值

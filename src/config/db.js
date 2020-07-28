@@ -1,6 +1,6 @@
-const Sequelize = require('sequelize')
-const defaultConfig = require('./mysql')
-console.log(defaultConfig)
+import Sequelize, {DataTypes as dts} from 'sequelize'
+import defaultConfig from './mysql'
+
 const sequelize = new Sequelize(defaultConfig.dataBaseName, defaultConfig.userName, defaultConfig.password, {
     host: defaultConfig.ip,
     port: defaultConfig.port,
@@ -23,4 +23,14 @@ const sequelize = new Sequelize(defaultConfig.dataBaseName, defaultConfig.userNa
     timezone: '+08:00' //东八时区
 })
 
-module.exports = sequelize
+sequelize.authenticate().then(() => {
+    console.log('Connection has been established successfully.');
+}).catch(err => {
+    console.log('Unable to connect to the database:', err);
+})
+
+// module.exports = sequelize
+
+export default sequelize
+
+export const DataTypes = dts
