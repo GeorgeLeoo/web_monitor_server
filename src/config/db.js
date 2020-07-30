@@ -1,4 +1,4 @@
-import db, { DB } from './../utils/DB'
+import db, { DB } from '../lib/DB/DB'
 
 import defaultConfig from './mysql'
 

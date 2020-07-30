@@ -13,7 +13,7 @@ app.on('error', (err, ctx) => {
 function listenHandler() {
     console.log('--------------------------------------------------')
     console.log('--     Server is running.                       --')
-    console.log('--     You can open http://' + ipAddress + ':'+ PORT + '   --')
+    console.log('--     You can open Response://' + ipAddress + ':'+ PORT + '   --')
     console.log('--     You can open http://localhost'+':'+ PORT + '      --')
     console.log('--------------------------------------------------')
 }

@@ -5,6 +5,6 @@ const router = new Router()
 
 router.prefix('/sdk')
 
-router.get('/', controller.get)
+router.get('/:key', controller.get)
 
 export default router

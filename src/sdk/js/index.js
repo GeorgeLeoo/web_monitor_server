@@ -18,7 +18,7 @@ function recordJavaScriptError () {
         siftAndMakeUpMessage(errorMsg, url, lineNumber, columnNumber, errorObj);
         return oldError.apply(console, arguments);
     };
-    
+
     // 重写 onerror 进行jsError的监听
     window.onerror = function (errorMsg, url, lineNumber, columnNumber, errorObj) {
         // console.log('window.onerror')
@@ -28,7 +28,7 @@ function recordJavaScriptError () {
         // console.log(errorStack)
         siftAndMakeUpMessage(errorMsg, url, lineNumber, columnNumber, errorStack)
     }
-    
+
     function siftAndMakeUpMessage (origin_errorMsg, origin_url, origin_lineNumber, origin_columnNumber, origin_errorObj) {
         console.log(origin_errorMsg, origin_url, origin_lineNumber, origin_columnNumber, origin_errorObj)
         var errorMsg = origin_errorMsg ? origin_errorMsg : ''
@@ -38,7 +38,14 @@ function recordJavaScriptError () {
             var errorStackStr = JSON.stringify(errorObj)
             errorType = errorStackStr.split(': ')[0].replace('"', '')
         }
-        console.log(errorType + ': ' + errorMsg, errorObj)
+        var s = document.createElement('script')
+        s.async = 1
+        s.src=`http://localhost:54321/jsError?m=${origin_errorMsg}&u=${origin_url}&l=${origin_lineNumber}&c=${origin_columnNumber}`
+        document.body.appendChild(s)
+        s.onload = function () {
+            document.body.removeChild(s)
+        }
+        // console.log(errorType + ': ' + errorMsg, errorObj)
         // var javaScriptErrorInfo = new JavaScriptErrorInfo(JS_ERROR, errorType + ": " + errorMsg, errorObj);
         // javaScriptErrorInfo.handleLogInfo(JS_ERROR, javaScriptErrorInfo);
     }

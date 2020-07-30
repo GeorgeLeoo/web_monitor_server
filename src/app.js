@@ -65,7 +65,8 @@ app.use(async (ctx, next) => {
     try {
         await next()
         ms = new Date() - start
-        console.log('[http] ' + ctx.url + ' [Date]' + new Date() + ' [time]' + ms)
+        console.log('[Response] ' + ctx.url + ' [Date]' + new Date() + ' [time]' + ms)
+        log.info(ctx, ms)
     } catch (error) {
         //记录异常日志
         log.error(ctx, error, ms)

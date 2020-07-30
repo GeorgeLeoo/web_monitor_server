@@ -1,5 +1,5 @@
-import Response from '../utils/Response'
-import token from './Token'
+import Response from '../lib/Response/Response'
+import token from '../lib/Token/Token'
 
 /**
  * 判断token是否可用
@@ -10,13 +10,12 @@ module.exports = function () {
         if (access_token === undefined) {
             await next()
         } else {
-            await token.checkToken(access_token, async ({ code, msg }) => {
-                if (code === Response.SUCCESS && msg) {
-                    new Response(ctx).send401(msg)
-                    return
-                }
-                await next()
-            })
+            const {code, msg} = await token.checkToken(access_token)
+            if (code !== Response.SUCCESS && msg) {
+                new Response(ctx).send401(msg)
+                return
+            }
+            await next()
         }
     }
 }

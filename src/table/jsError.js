@@ -85,6 +85,18 @@ const jsError = Table(
             allowNull: true,
             field: 'errorStack'
         },
+        // JS报错堆栈
+        lineNumber: {
+            type: Table.DataTypes.INTEGER,
+        },
+        // JS报错堆栈
+        columnNumber: {
+            type: Table.DataTypes.INTEGER,
+        },
+        // JS报错堆栈
+        origin_url: {
+            type: Table.DataTypes.TEXT,
+        },
         // 浏览器信息
         browserInfo: {
             type: Table.DataTypes.TEXT,

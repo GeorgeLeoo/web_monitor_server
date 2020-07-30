@@ -1,4 +1,4 @@
-import Response from './../utils/Response'
+import Response from '../lib/Response/Response'
 
 export default (ctx, next) => {
     return next().catch((err) => {

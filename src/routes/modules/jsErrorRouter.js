@@ -6,9 +6,9 @@ const router = new Router()
 
 router.prefix('/jsError')
 
-router.get('/', controller.get)
+router.get('/', controller.create)
 
-router.post('/', controller.create)
+// router.post('/', controller.create)
 //
 // router.put('/', controller.update)
 //

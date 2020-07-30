@@ -1,7 +1,7 @@
-import Response from './../utils/Response'
+import Response from '../lib/Response/Response'
 import history from '../table/test'
 import UserService from '../service/UserService'
-import token from '../utils/Token'
+import token from '../lib/Token/Token'
 
 class UserController {
     // TODO: 查询用户
@@ -20,7 +20,7 @@ class UserController {
             console.log(e)
         }
     }
-    
+
     // TODO: 创建用户
     async create (ctx) {
         try {
@@ -34,7 +34,7 @@ class UserController {
             console.log(e)
         }
     }
-    
+
     // TODO: 注册
     async register (ctx) {
         const { username, password } = ctx.request.body
@@ -55,9 +55,9 @@ class UserController {
             const { data } = await UserService.create({ username, password })
             new Response(ctx).send200(msg, data)
         }
-        
+
     }
-    
+
     // TODO: 登陆
     async login (ctx) {
         const { username, password } = ctx.request.body
