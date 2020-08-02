@@ -1,10 +1,10 @@
 import Router from 'koa-router'
 
-import controller from '../../controller/JsErrorController'
+import controller from '../../controller/HttpInfoController'
 
 const router = new Router()
 
-router.prefix('/jsError')
+router.prefix('/httpInfo')
 
 router.get('/', controller.create)
 

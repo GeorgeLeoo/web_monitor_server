@@ -6,18 +6,6 @@ module.exports = (DataTypes) => {
             allowNull: true,
             field: 'uploadType'
         },
-        // 发生时间
-        happenTime: {
-            type: DataTypes.STRING(13),
-            allowNull: true,
-            field: 'happenTime'
-        },
-        // 发生时间字符串
-        happenDate: {
-            type: DataTypes.DATE,
-            allowNull: true,
-            field: 'happenDate'
-        },
         // 监控ID
         webMonitorId: {
             type: DataTypes.STRING(36),

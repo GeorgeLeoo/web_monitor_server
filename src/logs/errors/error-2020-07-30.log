@@ -1,4 +1,4 @@
-[2020-07-30T22:35:01.529] [ERROR] errorLog - 
+[2020-07-30T22:35:01.529] [ERROR] errorLog -
 *************** error log start ***************
 method: GET
 originalUrl:  /project?userId=6
@@ -9,18 +9,18 @@ err name: Error
 err message: Cannot set headers after they are sent to the client
 err stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
     at ServerResponse.setHeader (_http_outgoing.js:485:11)
-    at dnsPrefetchControl (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/dns-prefetch-control/dist/index.js:13:13)
-    at internalNext (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/index.js:51:7)
-    at helmet (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/index.js:54:5)
+    at dnsPrefetchControl (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/dns-prefetch-control/dist/JSError.js:13:13)
+    at internalNext (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/JSError.js:51:7)
+    at helmet (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/JSError.js:54:5)
     at internal/util.js:286:30
     at new Promise (<anonymous>)
     at helmet (internal/util.js:285:12)
     at middleware (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-helmet/lib/koa-helmet.js:11:12)
-    at dispatch (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-compose/index.js:42:32)
-    at filter (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-json/index.js:25:12)
+    at dispatch (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
+    at filter (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-json/JSError.js:25:12)
 *************** error log end ***************
 
-[2020-07-30T22:35:15.154] [ERROR] errorLog - 
+[2020-07-30T22:35:15.154] [ERROR] errorLog -
 *************** error log start ***************
 method: GET
 originalUrl:  /project?userId=6
@@ -31,18 +31,18 @@ err name: Error
 err message: Cannot set headers after they are sent to the client
 err stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
     at ServerResponse.setHeader (_http_outgoing.js:485:11)
-    at dnsPrefetchControl (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/dns-prefetch-control/dist/index.js:13:13)
-    at internalNext (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/index.js:51:7)
-    at helmet (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/index.js:54:5)
+    at dnsPrefetchControl (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/dns-prefetch-control/dist/JSError.js:13:13)
+    at internalNext (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/JSError.js:51:7)
+    at helmet (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/JSError.js:54:5)
     at internal/util.js:286:30
     at new Promise (<anonymous>)
     at helmet (internal/util.js:285:12)
     at middleware (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-helmet/lib/koa-helmet.js:11:12)
-    at dispatch (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-compose/index.js:42:32)
-    at filter (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-json/index.js:25:12)
+    at dispatch (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
+    at filter (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-json/JSError.js:25:12)
 *************** error log end ***************
 
-[2020-07-30T22:35:24.066] [ERROR] errorLog - 
+[2020-07-30T22:35:24.066] [ERROR] errorLog -
 *************** error log start ***************
 method: GET
 originalUrl:  /project?userId=6
@@ -53,18 +53,18 @@ err name: Error
 err message: Cannot set headers after they are sent to the client
 err stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
     at ServerResponse.setHeader (_http_outgoing.js:485:11)
-    at dnsPrefetchControl (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/dns-prefetch-control/dist/index.js:13:13)
-    at internalNext (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/index.js:51:7)
-    at helmet (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/index.js:54:5)
+    at dnsPrefetchControl (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/dns-prefetch-control/dist/JSError.js:13:13)
+    at internalNext (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/JSError.js:51:7)
+    at helmet (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/JSError.js:54:5)
     at internal/util.js:286:30
     at new Promise (<anonymous>)
     at helmet (internal/util.js:285:12)
     at middleware (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-helmet/lib/koa-helmet.js:11:12)
-    at dispatch (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-compose/index.js:42:32)
-    at filter (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-json/index.js:25:12)
+    at dispatch (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
+    at filter (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-json/JSError.js:25:12)
 *************** error log end ***************
 
-[2020-07-30T22:35:48.537] [ERROR] errorLog - 
+[2020-07-30T22:35:48.537] [ERROR] errorLog -
 *************** error log start ***************
 method: GET
 originalUrl:  /project?userId=6
@@ -75,18 +75,18 @@ err name: Error
 err message: Cannot set headers after they are sent to the client
 err stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
     at ServerResponse.setHeader (_http_outgoing.js:485:11)
-    at dnsPrefetchControl (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/dns-prefetch-control/dist/index.js:13:13)
-    at internalNext (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/index.js:51:7)
-    at helmet (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/index.js:54:5)
+    at dnsPrefetchControl (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/dns-prefetch-control/dist/JSError.js:13:13)
+    at internalNext (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/JSError.js:51:7)
+    at helmet (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/JSError.js:54:5)
     at internal/util.js:286:30
     at new Promise (<anonymous>)
     at helmet (internal/util.js:285:12)
     at middleware (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-helmet/lib/koa-helmet.js:11:12)
-    at dispatch (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-compose/index.js:42:32)
-    at filter (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-json/index.js:25:12)
+    at dispatch (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
+    at filter (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-json/JSError.js:25:12)
 *************** error log end ***************
 
-[2020-07-30T22:36:14.218] [ERROR] errorLog - 
+[2020-07-30T22:36:14.218] [ERROR] errorLog -
 *************** error log start ***************
 method: GET
 originalUrl:  /project?userId=6
@@ -97,14 +97,14 @@ err name: Error
 err message: Cannot set headers after they are sent to the client
 err stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
     at ServerResponse.setHeader (_http_outgoing.js:485:11)
-    at dnsPrefetchControl (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/dns-prefetch-control/dist/index.js:13:13)
-    at internalNext (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/index.js:51:7)
-    at helmet (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/index.js:54:5)
+    at dnsPrefetchControl (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/dns-prefetch-control/dist/JSError.js:13:13)
+    at internalNext (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/JSError.js:51:7)
+    at helmet (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/helmet/JSError.js:54:5)
     at internal/util.js:286:30
     at new Promise (<anonymous>)
     at helmet (internal/util.js:285:12)
     at middleware (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-helmet/lib/koa-helmet.js:11:12)
-    at dispatch (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-compose/index.js:42:32)
-    at filter (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-json/index.js:25:12)
+    at dispatch (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
+    at filter (/Users/georgeleeo/Documents/project/web_monitor_server/node_modules/koa-json/JSError.js:25:12)
 *************** error log end ***************
 

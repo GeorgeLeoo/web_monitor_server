@@ -2,8 +2,8 @@
 const baseInfo = require('./baseInfo')
 import { Table } from './utils'
 
-const behaviorInfo = Table(
-    'behaviorInfo',
+const srcError = Table(
+    'srcError',
     {
         ...baseInfo(Table.DataTypes),
         // ID 主键
@@ -67,47 +67,24 @@ const behaviorInfo = Table(
             allowNull: true,
             field: 'city'
         },
+        // 静态资源的请求路径
+        sourceUrl: {
+            type: Table.DataTypes.TEXT,
+            allowNull: true,
+            field: 'sourceUrl'
+        },
+        // 静态资源的类型
+        elementType: {
+            type: Table.DataTypes.STRING(20),
+            allowNull: true,
+            field: 'elementType'
+        },
         // 浏览器信息
         browserInfo: {
             type: Table.DataTypes.TEXT,
             allowNull: true,
             field: 'browserInfo'
         },
-        // 行为类型
-        behaviorType: {
-            type: Table.DataTypes.STRING(20),
-            allowNull: true,
-        },
-        // 元素的类名
-        className: {
-            type: Table.DataTypes.TEXT,
-            allowNull: true,
-            field: 'className'
-        },
-        // Input 框的placeholder
-        placeholder: {
-            type: Table.DataTypes.TEXT,
-            allowNull: true,
-            field: 'placeholder'
-        },
-        // 输入的内容
-        inputValue: {
-            type: Table.DataTypes.TEXT,
-            allowNull: true,
-            field: 'inputValue'
-        },
-        // 输入的内容
-        tagName: {
-            type: Table.DataTypes.STRING(15),
-            allowNull: true,
-            field: 'tagName'
-        },
-        // 元素包含的内容
-        innerText: {
-            type: Table.DataTypes.TEXT,
-            allowNull: true,
-            field: 'innerText'
-        }
     },
     {
         indexes: [
@@ -150,4 +127,4 @@ const behaviorInfo = Table(
         ]
     })
 
-module.exports = behaviorInfo
+module.exports = srcError

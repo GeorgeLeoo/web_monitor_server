@@ -1,14 +1,12 @@
 import Router from 'koa-router'
 
-import controller from '../../controller/JsErrorController'
+import controller from '../../controller/BehaviorInfoController'
 
 const router = new Router()
 
-router.prefix('/jsError')
+router.prefix('/behaviorInfo')
 
 router.get('/', controller.create)
-
-router.get('/get', controller.get)
 
 // router.post('/', controller.create)
 //

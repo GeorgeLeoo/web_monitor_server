@@ -1,92 +1,92 @@
-[2020-07-28T11:46:33.816] [ERROR] errorLog - 
+[2020-07-28T11:46:33.816] [ERROR] errorLog -
 *************** error log start ***************
 method: POST
 originalUrl:  /user/register
 client ip:  ::1
-body: 
+body:
 {"username":"suxing","password":"123456"}
 response time: 0
 err name: TypeError
 err message: Cannot destructure property 'username' of 'ctx.body' as it is undefined.
 err stack: TypeError: Cannot destructure property 'username' of 'ctx.body' as it is undefined.
     at register (/Users/jxd/Documents/GitHub/web_monitor_server/src/controller/UserController.js:36:17)
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
     at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-router/lib/router.js:368:16
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
-    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:34:12
     at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-router/lib/router.js:373:31)
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
-    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:34:12
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:34:12
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
     at processTicksAndRejections (internal/process/task_queues.js:97:5)
 *************** error log end ***************
 
-[2020-07-28T11:46:45.321] [ERROR] errorLog - 
+[2020-07-28T11:46:45.321] [ERROR] errorLog -
 *************** error log start ***************
 method: POST
 originalUrl:  /user/register
 client ip:  ::1
-body: 
+body:
 {"username":"suxing","password":"123456"}
 response time: 0
 err name: TypeError
 err message: Cannot destructure property 'username' of 'ctx.body' as it is undefined.
 err stack: TypeError: Cannot destructure property 'username' of 'ctx.body' as it is undefined.
     at register (/Users/jxd/Documents/GitHub/web_monitor_server/src/controller/UserController.js:36:17)
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
     at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-router/lib/router.js:368:16
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
-    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:34:12
     at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-router/lib/router.js:373:31)
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
-    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:34:12
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:34:12
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
     at processTicksAndRejections (internal/process/task_queues.js:97:5)
 *************** error log end ***************
 
-[2020-07-28T11:47:08.142] [ERROR] errorLog - 
+[2020-07-28T11:47:08.142] [ERROR] errorLog -
 *************** error log start ***************
 method: POST
 originalUrl:  /user/register
 client ip:  ::1
-body: 
+body:
 {"username":"suxing","password":"123456"}
 response time: 0
 err name: TypeError
 err message: Cannot destructure property 'username' of 'ctx.body' as it is undefined.
 err stack: TypeError: Cannot destructure property 'username' of 'ctx.body' as it is undefined.
     at register (/Users/jxd/Documents/GitHub/web_monitor_server/src/controller/UserController.js:37:17)
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
     at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-router/lib/router.js:368:16
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
-    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:34:12
     at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-router/lib/router.js:373:31)
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
-    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:34:12
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:34:12
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
     at processTicksAndRejections (internal/process/task_queues.js:97:5)
 *************** error log end ***************
 
-[2020-07-28T11:47:37.095] [ERROR] errorLog - 
+[2020-07-28T11:47:37.095] [ERROR] errorLog -
 *************** error log start ***************
 method: POST
 originalUrl:  /user/register
 client ip:  ::1
-body: 
+body:
 {"username":"suxing","password":"123456"}
 response time: 0
 err name: TypeError
 err message: Cannot destructure property 'username' of 'ctx.body' as it is undefined.
 err stack: TypeError: Cannot destructure property 'username' of 'ctx.body' as it is undefined.
     at register (/Users/jxd/Documents/GitHub/web_monitor_server/src/controller/UserController.js:37:17)
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
     at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-router/lib/router.js:368:16
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
-    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:34:12
     at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-router/lib/router.js:373:31)
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
-    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:34:12
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:34:12
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
     at processTicksAndRejections (internal/process/task_queues.js:97:5)
 *************** error log end ***************
 

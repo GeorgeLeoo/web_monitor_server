@@ -9,15 +9,15 @@ err name: TypeError
 err message: _sequelize.default.close is not a function
 err stack: TypeError: _sequelize.default.close is not a function
     at get (/Users/jxd/Documents/GitHub/web_monitor_server/src/controller/JsErrorController.js:13:19)
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
     at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-router/lib/router.js:368:16
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
-    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:34:12
     at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-router/lib/router.js:373:31)
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
-    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:34:12
-    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/index.js:42:32)
-    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/index.js:56:32)
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:34:12
+    at dispatch (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compose/JSError.js:42:32)
+    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/JSError.js:56:32)
 *************** error log end ***************
 
 [2020-07-27T16:49:56.283] [ERROR] errorLog -
@@ -32,9 +32,9 @@ err message: users is not defined
 err stack: ReferenceError: users is not defined
     at get (/Users/jxd/Documents/GitHub/web_monitor_server/src/controller/JsErrorController.js:20:41)
     at processTicksAndRejections (internal/process/task_queues.js:97:5)
-    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/index.js:56:32)
-    at serve (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-static/index.js:53:9)
-    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compress/index.js:43:5
+    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/JSError.js:56:32)
+    at serve (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-static/JSError.js:53:9)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compress/JSError.js:43:5
     at /Users/jxd/Documents/GitHub/web_monitor_server/src/app.js:57:9
     at /Users/jxd/Documents/GitHub/web_monitor_server/src/utils/verifyHandler.js:16:13
     at /Users/jxd/Documents/GitHub/web_monitor_server/src/app.js:36:9
@@ -52,9 +52,9 @@ err message: users is not defined
 err stack: ReferenceError: users is not defined
     at get (/Users/jxd/Documents/GitHub/web_monitor_server/src/controller/JsErrorController.js:20:41)
     at processTicksAndRejections (internal/process/task_queues.js:97:5)
-    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/index.js:56:32)
-    at serve (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-static/index.js:53:9)
-    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compress/index.js:43:5
+    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/JSError.js:56:32)
+    at serve (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-static/JSError.js:53:9)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compress/JSError.js:43:5
     at /Users/jxd/Documents/GitHub/web_monitor_server/src/app.js:57:9
     at /Users/jxd/Documents/GitHub/web_monitor_server/src/utils/verifyHandler.js:16:13
     at /Users/jxd/Documents/GitHub/web_monitor_server/src/app.js:36:9
@@ -86,9 +86,9 @@ err message: doc is not defined
 err stack: ReferenceError: doc is not defined
     at create (/Users/jxd/Documents/GitHub/web_monitor_server/src/controller/JsErrorController.js:37:41)
     at processTicksAndRejections (internal/process/task_queues.js:97:5)
-    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/index.js:56:32)
-    at serve (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-static/index.js:53:9)
-    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compress/index.js:43:5
+    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/JSError.js:56:32)
+    at serve (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-static/JSError.js:53:9)
+    at /Users/jxd/Documents/GitHub/web_monitor_server/node_modules/koa-compress/JSError.js:43:5
     at /Users/jxd/Documents/GitHub/web_monitor_server/src/app.js:57:9
     at /Users/jxd/Documents/GitHub/web_monitor_server/src/utils/verifyHandler.js:16:13
     at /Users/jxd/Documents/GitHub/web_monitor_server/src/app.js:36:9
@@ -113,7 +113,7 @@ err stack: Error: WHERE parameter "id" has invalid "undefined" value
     at MySQLQueryInterface.select (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:939:27)
     at Function.findAll (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/model.js:1741:47)
     at get (/Users/jxd/Documents/GitHub/web_monitor_server/src/controller/JsErrorController.js:6:26)
-    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/index.js:56:32)
+    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/JSError.js:56:32)
 *************** error log end ***************
 
 [2020-07-27T17:19:53.763] [ERROR] errorLog -
@@ -135,7 +135,7 @@ err stack: Error: WHERE parameter "id" has invalid "undefined" value
     at MySQLQueryInterface.select (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:939:27)
     at Function.findAll (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/sequelize/lib/model.js:1741:47)
     at get (/Users/jxd/Documents/GitHub/web_monitor_server/src/controller/JsErrorController.js:6:26)
-    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/index.js:56:32)
+    at cors (/Users/jxd/Documents/GitHub/web_monitor_server/node_modules/@koa/cors/JSError.js:56:32)
 *************** error log end ***************
 
 [2020-07-27T17:36:58.135] [ERROR] errorLog -

@@ -1,4 +1,4 @@
-import db, { DB } from '../lib/DB/DB'
+import db, { DB, Op } from '../lib/DB/DB'
 
 import defaultConfig from './mysql'
 
@@ -21,7 +21,8 @@ const options = {
         acquire: 30000,
         idle: 10000
     },
-    timezone: '+08:00' //东八时区
+    timezone: '+08:00', //东八时区
+    operatorsAliases: Op
 }
 
 const mysql = db.init(

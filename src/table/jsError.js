@@ -13,7 +13,7 @@ const jsError = Table(
             allowNull: false,
             autoIncrement: true,
         },
-        // 用户标识ID
+        // 页面标识
         pageKey: {
             type: Table.DataTypes.STRING(50),
             allowNull: true,
@@ -27,7 +27,7 @@ const jsError = Table(
         },
         // 系统信息
         os: {
-            type: Table.DataTypes.STRING(20),
+            type: Table.DataTypes.TEXT,
             allowNull: true,
             field: 'os'
         },

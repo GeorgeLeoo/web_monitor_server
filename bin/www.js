@@ -3,6 +3,7 @@ import app from './../src/app.js'
 
 const ipAddress = ip.address()
 
+const IP = '0.0.0.0'
 const PORT = 54321
 
 
@@ -18,6 +19,6 @@ function listenHandler() {
     console.log('--------------------------------------------------')
 }
 
-app.listen(PORT, listenHandler)
+app.listen(PORT, IP, listenHandler)
 
 

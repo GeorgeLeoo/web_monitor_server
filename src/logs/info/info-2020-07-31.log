@@ -1,0 +1,618 @@
+[2020-07-31T23:16:26.096] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /project?userId=6
+client ip:  ::1
+body: 
+{}
+response time: 14
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:16:39.316] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /user/login
+client ip:  ::1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:16:40.740] [INFO] responseLog - 
+*************** response log start ***************
+method: POST
+originalUrl:  /user/login
+client ip:  ::1
+body: 
+{"username":"sx","password":"123456"}
+response time: 1422
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:16:40.788] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /project?userId=6
+client ip:  ::1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:16:40.845] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /project?userId=6
+client ip:  ::1
+query:  undefined
+response time: 56
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:17:13.201] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /project/projectId?userId=6&projectId=1
+client ip:  ::1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:17:13.406] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /project/projectId?userId=6&projectId=1
+client ip:  ::1
+query:  undefined
+response time: 202
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:17:25.406] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /project?userId=6
+client ip:  ::1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:17:25.766] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /project?userId=6
+client ip:  ::1
+query:  undefined
+response time: 358
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:18:34.973] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 193
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:18:35.066] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 65
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:26:46.122] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 873
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:26:46.240] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 105
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:27:05.359] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 311
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:27:05.454] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 86
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:27:05.495] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 39
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:27:05.543] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 46
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:28:19.431] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 350
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:28:19.531] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 91
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:29:57.537] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 86
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:29:57.671] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 125
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:42:07.907] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 2868
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:42:08.012] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 96
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:42:27.460] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 2077
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:42:27.630] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 160
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:42:55.803] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 59
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:42:55.898] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 86
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:43:16.580] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 158
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:43:16.654] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=ReferenceError:%20Can%27t%20find%20variable:%20a&u=http://192.168.0.101:5500/a.js&l=1&c=2
+client ip:  ::1
+query:  undefined
+response time: 68
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:44:48.107] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 1773
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:44:48.230] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 112
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:44:49.510] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 62
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:44:49.603] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=ReferenceError:%20Can%27t%20find%20variable:%20a&u=http://192.168.0.101:5500/a.js&l=1&c=2
+client ip:  ::1
+query:  undefined
+response time: 88
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:51:49.155] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 230
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:52:11.685] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 44
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:53:30.875] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 56
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:53:30.976] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 92
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:55:27.474] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 762
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:55:27.592] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 107
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:55:52.076] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 165
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:55:52.149] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=ReferenceError:%20Can%27t%20find%20variable:%20a&u=http://192.168.0.101:5500/a.js&l=1&c=2
+client ip:  ::1
+query:  undefined
+response time: 69
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:56:26.073] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 993
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:56:26.153] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 72
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:56:47.731] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 161
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:56:47.801] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 64
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:58:00.952] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 407
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:58:01.065] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 103
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:58:51.296] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 52
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:58:51.385] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 80
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:59:23.322] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /sdk/Demo_Log_Test1596121074223
+client ip:  ::1
+query:  undefined
+response time: 282
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-07-31T23:59:23.445] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError?m=Uncaught%20ReferenceError:%20a%20is%20not%20defined&u=http://192.168.0.101:5500/a.js&l=1&c=1
+client ip:  ::1
+query:  undefined
+response time: 117
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
