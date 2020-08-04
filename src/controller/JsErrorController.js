@@ -25,10 +25,9 @@ class JsErrorController {
             groupOptions.where.errorMessage = {[Op.like]: '%' + errorMessage + '%'}
         }
         if (startDate && endDate) {
-            options.where.createdAt = { $between: { startDate, endDate } }
-            groupOptions.where.createdAt = { $between: { startDate, endDate } }
+            options.where.createdAt = {$between: {startDate, endDate}}
+            groupOptions.where.createdAt = {$between: {startDate, endDate}}
         }
-        console.log(options.where)
         const groupByResult = await JsErrorService.groupBy(groupOptions)
         const groupByMap = {}
         if (groupByResult.code === Response.SUCCESS) {
@@ -76,7 +75,7 @@ class JsErrorController {
                 monitorIp: ip,
                 pageKey: k,
                 uploadType: type,
-                simpleUrl: p.split('://')[1].split('/')[1]
+                simpleUrl: p.split('://')[1].split('/')[1],
             }
             // if (ip) {
             //     console.log(ip)
@@ -88,6 +87,33 @@ class JsErrorController {
         } else {
             new Response(ctx).send412('error')
         }
+    }
+
+    async getChart(ctx) {
+        const { uploadType, startDate, endDate} = ctx.request.query
+        const options = {where: {}}
+        const groupOptions = {
+            where: {},
+            attributes: ['date', [sequelize.fn('COUNT', sequelize.col('date')), 'count']],
+            group: 'date',
+            raw: true
+        }
+        if (uploadType) {
+            options.where.uploadType = uploadType
+            groupOptions.where.uploadType = uploadType
+        }
+        if (startDate && endDate) {
+            options.where.createdAt = {$between: {startDate, endDate}}
+            groupOptions.where.createdAt = {$between: {startDate, endDate}}
+        }
+        const groupByResult = await JsErrorService.groupBy(groupOptions)
+        const groupByMap = {}
+        if (groupByResult.code === Response.SUCCESS) {
+            groupByResult.data.map(v => {
+                groupByMap[v.errorMessage] = v
+            })
+        }
+        new Response(ctx).send200('', groupByResult.data)
     }
 }
 

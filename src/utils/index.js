@@ -8,6 +8,29 @@ import secret from '../config/secret'
 const timeout = 300000
 
 const Index = {
+    formatDateTime(date) {
+        if (!date) {
+            return ''
+        }
+        const d = new Date(date)
+        const year = d.getFullYear()
+        const month = d.getMonth() + 1
+        const day = d.getDate()
+        const hour = d.getHours()
+        const min = d.getMinutes()
+        const sec = d.getSeconds()
+        return `${year}-${month < 10 ? '0' + month : month}-${day < 10 ? '0' + day : day} ${hour < 10 ? '0' + hour : hour}:${min < 10 ? '0' + min : min}:${sec < 10 ? '0' + sec : sec}`
+    },
+    formatDate(date) {
+        let d = new Date()
+        if (date) {
+            d = date
+        }
+        const year = d.getFullYear()
+        const month = d.getMonth() + 1
+        const day = d.getDate()
+        return `${year}-${month < 10 ? '0' + month : month}-${day < 10 ? '0' + day : day}`
+    },
     isArray(object) {
         return Object.prototype.toString.call(object) === '[object Array]'
     },

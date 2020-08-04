@@ -1,0 +1,1390 @@
+[2020-08-03T13:18:48.064] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /project/projectId?userId=6&projectId=7
+client ip:  127.0.0.1
+body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:18:48.342] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /project/projectId?userId=6&projectId=7
+client ip:  127.0.0.1
+query:  undefined
+response time: 242
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:18:55.761] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /srcError/get?page=1&limit=20&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:18:55.918] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /srcError/get?page=1&limit=20&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 153
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:19:57.977] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=window.error&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:19:58.284] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=window.error&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 304
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:20:27.709] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:20:27.970] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 258
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:27:19.805] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 2
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:27:19.821] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:27:20.039] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 208
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:27:20.088] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 272
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:39:48.824] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 2
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:39:48.826] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:39:49.253] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 422
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:39:49.299] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 470
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:41:03.693] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:41:03.694] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:41:03.913] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 217
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:41:03.964] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 268
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:41:25.640] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:41:25.641] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:41:25.850] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 207
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:41:25.898] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 256
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:41:33.504] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:41:33.505] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:41:33.554] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 47
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:41:33.609] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 103
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:41:58.855] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:41:58.855] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:41:59.055] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 197
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:41:59.101] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 244
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:45:41.552] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:45:41.554] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:45:41.757] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 200
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:45:41.802] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 245
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:45:58.851] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:45:58.853] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:45:59.066] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 211
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:45:59.110] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 256
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:46:14.868] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:46:14.868] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:46:15.075] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 205
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:46:15.118] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 249
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:46:28.903] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:46:28.903] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:46:29.122] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 217
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:46:29.172] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 266
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:47:45.702] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:47:45.702] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:47:45.907] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 203
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:47:45.952] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 248
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:48:49.806] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:48:49.807] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:48:49.997] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 187
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:48:50.037] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 228
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:48:53.449] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 42
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:48:53.498] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 92
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:49:29.836] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:49:29.836] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:49:30.032] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 193
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:49:30.078] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 240
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:49:50.528] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:49:50.529] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:49:50.745] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 214
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:49:50.783] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 252
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:58:24.236] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:58:24.240] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:58:33.907] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:58:33.907] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:58:51.799] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:58:51.799] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:59:22.590] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /project?userId=6
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:59:29.207] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /user/login
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:59:29.419] [INFO] responseLog - 
+*************** response log start ***************
+method: POST
+originalUrl:  /user/login
+client ip:  127.0.0.1
+body: 
+{"username":"sx","password":"123456"}
+response time: 209
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:59:29.465] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /project?userId=6
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:59:29.507] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /project?userId=6
+client ip:  127.0.0.1
+query:  undefined
+response time: 40
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:59:34.702] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=window.error&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T13:59:34.703] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=window.error
+client ip:  127.0.0.1
+body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:03:31.614] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:03:31.614] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:03:31.911] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 294
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:03:31.960] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 343
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:03:49.389] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:03:49.390] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:03:49.764] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 372
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:03:49.860] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 468
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:04:06.262] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:04:06.268] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:04:06.638] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 367
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:04:06.684] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 420
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:05:02.807] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:05:02.809] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:05:03.044] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 232
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:05:03.089] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 278
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:05:03.117] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 71
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:05:03.158] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 40
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:05:03.206] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 114
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:05:03.299] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 91
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:06:01.138] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:06:01.139] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:06:01.565] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 425
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:06:01.621] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 481
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:12:00.925] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:12:00.928] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:12:01.216] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 282
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:12:01.286] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 355
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:13:18.890] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:13:18.891] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:13:19.129] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/chart?uploadType=
+client ip:  127.0.0.1
+query:  undefined
+response time: 237
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-03T14:13:19.180] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /jsError/get?page=1&limit=20&uploadType=&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 288
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+

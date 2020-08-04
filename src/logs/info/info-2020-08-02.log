@@ -5999,3 +5999,352 @@ response body:
 undefined
 *************** response log end ***************
 
+[2020-08-02T23:00:19.352] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /project?userId=6
+client ip:  127.0.0.1
+body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:00:19.795] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /project?userId=6
+client ip:  127.0.0.1
+query:  undefined
+response time: 440
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:00:26.922] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /project/projectId?userId=6&projectId=7
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:00:26.978] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /project/projectId?userId=6&projectId=7
+client ip:  127.0.0.1
+query:  undefined
+response time: 54
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:01:32.872] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /project/projectId?userId=6&projectId=7
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:01:33.119] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /project/projectId?userId=6&projectId=7
+client ip:  127.0.0.1
+query:  undefined
+response time: 245
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:01:39.825] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /project/projectId?userId=6&projectId=7
+client ip:  127.0.0.1
+body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:01:39.863] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /project/projectId?userId=6&projectId=7
+client ip:  127.0.0.1
+query:  undefined
+response time: 37
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:05:08.173] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /project?userId=6
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:05:08.351] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /project?userId=6
+client ip:  127.0.0.1
+query:  undefined
+response time: 176
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:05:13.334] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /project/projectId?userId=6&projectId=7
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:05:13.377] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /project/projectId?userId=6&projectId=7
+client ip:  127.0.0.1
+query:  undefined
+response time: 41
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:05:14.611] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /project?userId=6
+client ip:  127.0.0.1
+body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:05:14.706] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /project?userId=6
+client ip:  127.0.0.1
+query:  undefined
+response time: 94
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:05:20.996] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /project/projectId?userId=6&projectId=7
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:05:21.200] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /project/projectId?userId=6&projectId=7
+client ip:  127.0.0.1
+query:  undefined
+response time: 199
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:05:23.657] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /project/projectId?userId=6&projectId=7
+client ip:  127.0.0.1
+query:  undefined
+response time: 52
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:05:31.128] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /project/projectId?userId=6&projectId=7
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:05:31.178] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /project/projectId?userId=6&projectId=7
+client ip:  127.0.0.1
+query:  undefined
+response time: 48
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:05:47.681] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /srcError/get?page=1&limit=20&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:05:47.943] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /srcError/get?page=1&limit=20&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 260
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:06:07.041] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /srcError/get?page=1&limit=20&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:06:07.340] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /srcError/get?page=1&limit=20&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 296
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:06:09.628] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /srcError/get?page=2&limit=20&sourceUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:06:09.779] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /srcError/get?page=2&limit=20&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 149
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:06:11.259] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /srcError/get?page=1&limit=20&sourceUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 204
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:06:13.657] [INFO] responseLog - 
+*************** response log start ***************
+method: OPTIONS
+originalUrl:  /httpInfo/get?page=1&limit=20&httpUrl=
+client ip:  127.0.0.1
+body: 
+{}
+response time: 0
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2020-08-02T23:06:13.808] [INFO] responseLog - 
+*************** response log start ***************
+method: GET
+originalUrl:  /httpInfo/get?page=1&limit=20&httpUrl=
+client ip:  127.0.0.1
+query:  undefined
+response time: 149
+response status: 200
+response body: 
+undefined
+*************** response log end ***************
+
