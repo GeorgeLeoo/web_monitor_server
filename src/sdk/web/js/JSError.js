@@ -1,7 +1,13 @@
+import Base from './Base';
+
 /**
  * js 错误上报
  */
-class JSError {
+class JSError extends Base{
+    constructor(props) {
+        super(props);
+    }
+
     start() {
         this._overwriteConsoleError()
         this._overwriteWindowError()
@@ -14,7 +20,7 @@ class JSError {
     _overwriteConsoleError() {
         let systemConsoleError = console.error
         console.error = () => {
-            console.log(this)
+            // console.log(this)
             const errorMsg = arguments[0] && arguments[0].message
             const pageUrl = window.location.href
             const lineNumber = 0;
@@ -53,20 +59,8 @@ class JSError {
         this._http(url, params)
     }
 
-    _http(url, params) {
-        let _url = url
-        const paramsArray = Object.keys(params)
-        if (paramsArray.length > 0) {
-            _url += '?'
-        }
-        paramsArray.map(v => {
-            _url += `${v}=${params[v]}&`
-        })
-        _url = _url.substring(0, _url.length - 1)
-        new Image().src= _url
-    }
-
 }
 
-new JSError().start()
+// new JSError().start()
 
+export default JSError

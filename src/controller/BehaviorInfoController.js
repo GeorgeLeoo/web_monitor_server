@@ -16,9 +16,11 @@ class JsErrorController {
     // TODO: 创建JsError
     async create(ctx) {
         if (ctx.request.query) {
-            const {e,c,p,i,t,n,u} = ctx.request.query
+            const {e,c,p,i,t,n,u,_k,_u} = ctx.request.query
             const ip = utils.getUserIp(ctx.request)
             const options = {
+                webMonitorId: _k,
+                userId: _u,
                 origin_url: u,
                 behaviorType: e,
                 className: c,

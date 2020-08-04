@@ -8,10 +8,10 @@ import {Op} from 'sequelize';
 class HttpInfoController {
     // TODO: 查询HttpInfo
     async get(ctx) {
-        const {page, limit, httpUrl, startDate, endDate} = ctx.request.query
-        const options = {page: Number(page), limit: Number(limit), where: {}}
+        const {page, limit, httpUrl, startDate, endDate, webMonitorId} = ctx.request.query
+        const options = {page: Number(page), limit: Number(limit), where: {webMonitorId}}
         const groupOptions = {
-            where: {},
+            where: { webMonitorId },
             attributes: ['httpUrl', [sequelize.fn('COUNT', sequelize.col('httpUrl')), 'count']],
             group: 'httpUrl',
             raw: true
@@ -26,7 +26,7 @@ class HttpInfoController {
             options.where.createdAt = { $between: { startDate, endDate } }
             groupOptions.where.createdAt = { $between: { startDate, endDate } }
         }
-        console.log(options.where)
+        // console.log(options.where)
         const groupByResult = await HttpInfoService.groupBy(groupOptions)
         const groupByMap = {}
         if (groupByResult.code === Response.SUCCESS) {
@@ -49,9 +49,11 @@ class HttpInfoController {
     // TODO: 创建HttpInfo
     async create(ctx) {
         if (ctx.request.query) {
-            const {s,u,a,e,t,r,p,m} = ctx.request.query
+            const {s,u,a,e,t,r,p,m,_k,_u} = ctx.request.query
             const ip = utils.getUserIp(ctx.request)
             const options = {
+                webMonitorId: _k,
+                userId: _u,
                 httpUrl: u,
                 simpleHttpUrl: s,
                 status: a,
@@ -78,6 +80,41 @@ class HttpInfoController {
         } else {
             new Response(ctx).send412('error')
         }
+    }
+    async getChart(ctx) {
+        const { uploadType, startDate, endDate, webMonitorId} = ctx.request.query
+        const options = {where: {webMonitorId}}
+        const groupOptions = {
+            where: {webMonitorId},
+            attributes: ['date', [sequelize.fn('COUNT', sequelize.col('date')), 'count']],
+            group: 'date',
+            raw: true
+        }
+        if (uploadType) {
+            options.where.uploadType = uploadType
+            groupOptions.where.uploadType = uploadType
+        }
+        if (startDate && endDate) {
+            options.where.createdAt = {$between: {startDate, endDate}}
+            groupOptions.where.createdAt = {$between: {startDate, endDate}}
+        }
+        const groupByResult = await HttpInfoService.groupBy(groupOptions)
+        const groupByMap = {}
+        if (groupByResult.code === Response.SUCCESS) {
+            groupByResult.data.map(v => {
+                groupByMap[v.errorMessage] = v
+            })
+        }
+        new Response(ctx).send200('', groupByResult.data)
+    }
+
+    async getCount(ctx) {
+        const { uploadType, startDate, endDate, webMonitorId} = ctx.request.query
+        const options = {
+            where: { webMonitorId }
+        }
+        const data = await HttpInfoService.count(options)
+        new Response(ctx).send200('', data.data)
     }
 }
 

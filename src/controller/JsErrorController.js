@@ -8,10 +8,10 @@ import {Op} from 'sequelize';
 class JsErrorController {
     // TODO: 查询JsError
     async get(ctx) {
-        const {page, limit, errorMessage, uploadType, startDate, endDate} = ctx.request.query
-        const options = {page: Number(page), limit: Number(limit), where: {}}
+        const {page, limit, errorMessage, uploadType, startDate, endDate, webMonitorId} = ctx.request.query
+        const options = {page: Number(page), limit: Number(limit), where: {webMonitorId}}
         const groupOptions = {
-            where: {},
+            where: { webMonitorId },
             attributes: ['errorMessage', [sequelize.fn('COUNT', sequelize.col('errorMessage')), 'count']],
             group: 'errorMessage',
             raw: true
@@ -52,7 +52,7 @@ class JsErrorController {
         // console.log(utils.getUserIp(ctx.request))
         // console.log(ctx.request.ip)
         if (ctx.request.query) {
-            const {m, u, l, c, p, k, t} = ctx.request.query
+            const {m, u, l, c, p, k, t, _k, _u} = ctx.request.query
             let type = Number(t)
             if (type === 0) {
                 type = 'console.error'
@@ -62,6 +62,8 @@ class JsErrorController {
             }
             const ip = utils.getUserIp(ctx.request)
             const options = {
+                webMonitorId: _k,
+                userId: _u,
                 errorMessage: m,
                 lineNumber: l,
                 columnNumber: c,
@@ -90,10 +92,10 @@ class JsErrorController {
     }
 
     async getChart(ctx) {
-        const { uploadType, startDate, endDate} = ctx.request.query
-        const options = {where: {}}
+        const { uploadType, startDate, endDate, webMonitorId} = ctx.request.query
+        const options = {where: {webMonitorId}}
         const groupOptions = {
-            where: {},
+            where: { webMonitorId },
             attributes: ['date', [sequelize.fn('COUNT', sequelize.col('date')), 'count']],
             group: 'date',
             raw: true
@@ -114,6 +116,16 @@ class JsErrorController {
             })
         }
         new Response(ctx).send200('', groupByResult.data)
+    }
+
+    async getCount(ctx) {
+        const { uploadType, startDate, endDate, webMonitorId} = ctx.request.query
+        const options = {
+            where: { uploadType, webMonitorId }
+        }
+        const data = await JsErrorService.count(options)
+        new Response(ctx).send200('', data.data)
+
     }
 }
 

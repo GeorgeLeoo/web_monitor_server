@@ -1,4 +1,6 @@
 //delete//
+import {formatDate} from '../utils';
+
 const baseInfo = require('./baseInfo')
 import { Table } from './utils'
 
@@ -118,6 +120,14 @@ const httpInfo = Table(
         timeStamp: {
             type: Table.DataTypes.STRING(13),
             allowNull: true
+        },
+        // 仅日期，无时间
+        date: {
+            type: Table.DataTypes.STRING,
+            allowNull: true,
+            defaultValue: function () {
+                return formatDate()
+            }
         },
     },
     {

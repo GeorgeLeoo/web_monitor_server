@@ -1,4 +1,10 @@
-class SrcError {
+import Base from './Base';
+
+class SrcError extends Base{
+    constructor(props) {
+        super(props);
+    }
+
     start() {
         this._recordSrcError()
     }
@@ -8,7 +14,7 @@ class SrcError {
      */
     _recordSrcError() {
         window.addEventListener('error', ev => {
-            console.log(ev)
+            // console.log(ev)
             const typeName = ev.target.localName;
             let sourceUrl = '';
             if (typeName === 'link') {
@@ -29,20 +35,8 @@ class SrcError {
         }
         this._http(url, params)
     }
-
-    _http(url, params) {
-        let _url = url
-        const paramsArray = Object.keys(params)
-        if (paramsArray.length > 0) {
-            _url += '?'
-        }
-        paramsArray.map(v => {
-            _url += `${v}=${params[v]}&`
-        })
-        _url = _url.substring(0, _url.length - 1)
-        new Image().src = _url
-    }
 }
 
-new SrcError().start()
+// new SrcError().start()
 
+export default SrcError

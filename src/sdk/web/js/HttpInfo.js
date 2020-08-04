@@ -1,7 +1,10 @@
+import JSError from './JSError';
+import Base from './Base';
+
 /**
  * 页面接口请求监控
  */
-function recordHttpLog() {
+function recordHttpLog(props) {
 
     // 监听ajax的状态
     function ajaxEventTrigger(event) {
@@ -27,7 +30,7 @@ function recordHttpLog() {
     }
 
     function handleHttpResult(i, tempResponseText) {
-        console.log(tempResponseText)
+        // console.log(tempResponseText)
         if (!timeRecordArray[i] || timeRecordArray[i].uploadFlag === true) {
             return;
         }
@@ -112,17 +115,21 @@ function recordHttpLog() {
     }
 
     function _http(url, params) {
-        let _url = url
-        const paramsArray = Object.keys(params)
-        if (paramsArray.length > 0) {
-            _url += '?'
-        }
-        paramsArray.map(v => {
-            _url += `${v}=${params[v]}&`
-        })
-        _url = _url.substring(0, _url.length - 1)
-        new Image().src = _url
+        new Base(props)._http(url, params)
     }
 }
 
-recordHttpLog()
+// recordHttpLog()
+
+class RecordHttpLog {
+    constructor(props) {
+        this.props = props
+    }
+
+
+    start() {
+        recordHttpLog(this.props)
+    }
+}
+
+export default RecordHttpLog

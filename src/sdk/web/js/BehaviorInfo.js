@@ -1,6 +1,8 @@
-class BehaviorInfo {
+import Base from './Base';
 
-    constructor() {
+class BehaviorInfo extends Base {
+    constructor(props) {
+        super(props);
         this.eventList = [
             'onabort',
             'onblur',
@@ -73,20 +75,8 @@ class BehaviorInfo {
         }
         this._http(url, params)
     }
-
-    _http(url, params) {
-        let _url = url
-        const paramsArray = Object.keys(params)
-        if (paramsArray.length > 0) {
-            _url += '?'
-        }
-        paramsArray.map(v => {
-            _url += `${v}=${params[v]}&`
-        })
-        _url = _url.substring(0, _url.length - 1)
-        new Image().src = _url
-    }
 }
 
-new BehaviorInfo().start()
+// new BehaviorInfo().start()
 
+export default BehaviorInfo

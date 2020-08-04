@@ -106,7 +106,7 @@ const jsError = Table(
         },
         // 仅日期，无时间
         date: {
-            type: Table.DataTypes.DATE,
+            type: Table.DataTypes.STRING,
             allowNull: true,
             defaultValue: function () {
                 return formatDate()

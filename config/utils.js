@@ -6,3 +6,4 @@ exports.resolve = function(dir) {
 
 exports.APP_PATH = exports.resolve('src')
 exports.DIST_PATH = exports.resolve('dist')
+exports.SDK_PATH = exports.resolve('/src/sdk/web/js/lib')

@@ -1,4 +1,6 @@
 //delete//
+import {formatDate} from '../utils';
+
 const baseInfo = require('./baseInfo')
 import { Table } from './utils'
 
@@ -84,6 +86,14 @@ const srcError = Table(
             type: Table.DataTypes.TEXT,
             allowNull: true,
             field: 'browserInfo'
+        },
+        // 仅日期，无时间
+        date: {
+            type: Table.DataTypes.STRING,
+            allowNull: true,
+            defaultValue: function () {
+                return formatDate()
+            }
         },
     },
     {

@@ -6,6 +6,7 @@
   "scripts": {
     "start": "nodemon --exec babel-node bin/www.js",
     "build": "cross-env NODE_ENV=prod webpack --config config/webpack.config.prod.js",
+    "build:sdk": "cross-env NODE_ENV=prod webpack --config config/webpack.config.base.sdk.js",
     "dev": "cross-env NODE_ENV=dev nodemon --exec babel-node --inspect src/app.js",
     "clean": "rimraf dist",
     "boot": "yarn && npm install",

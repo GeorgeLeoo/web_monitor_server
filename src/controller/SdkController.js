@@ -3,10 +3,11 @@ import Response from '../lib/Response/Response'
 // import sdk from './../sdk/js/index'
 import ProjectService from '../service/ProjectService'
 
-// const path = '/Users/georgeleeo/Documents/project/web_monitor_server/src/sdk/js/JsError.js'
-const path = '/Users/georgeleeo/Documents/project/web_monitor_server/src/sdk/js/SrcError.js'
-// const path = '/Users/georgeleeo/Documents/project/web_monitor_server/src/sdk/js/HttpInfo.js'
-// const path = '/Users/georgeleeo/Documents/project/web_monitor_server/src/sdk/js/BehaviorInfo.js'
+// const path = '/Users/georgeleeo/Documents/project/web_monitor_server/src/sdk/web/js/JsError.js'
+// const path = '/Users/georgeleeo/Documents/project/web_monitor_server/src/sdk/web/js/SrcError.js'
+// const path = '/Users/georgeleeo/Documents/project/web_monitor_server/src/web/sdk/js/HttpInfo.js'
+// const path = '/Users/georgeleeo/Documents/project/web_monitor_server/src/web/sdk/js/BehaviorInfo.js'
+const path = '/Users/georgeleeo/Documents/project/web_monitor_server/src/sdk/web/js/lib/l.js'
 
 class SdkController {
     async get (ctx){

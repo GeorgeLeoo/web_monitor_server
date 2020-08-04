@@ -12,6 +12,8 @@ router.get('/get', controller.get)
 
 router.get('/chart', controller.getChart)
 
+router.get('/count', controller.getCount)
+
 // router.post('/', controller.create)
 //
 // router.put('/', controller.update)
